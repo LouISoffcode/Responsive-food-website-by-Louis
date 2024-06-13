@@ -1109,5 +1109,11 @@ body.dark-theme{
     bottom: 15rem;
   }
 
-  
+  .footer__leaf{
+    right: 0;
+    left: 0;
+    bottom: -15rem;
+    margin: 0 auto;
+    width: 150px;
+  }
 }
