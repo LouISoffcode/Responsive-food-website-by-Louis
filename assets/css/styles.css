@@ -631,6 +631,10 @@ body.dark-theme{
   position: relative;
   padding-block: 3rem;
   overflow: hidden;
+  color: black;
+}
+, .footer__content{
+  color: black;
 }
 
 .footer__container{
@@ -638,7 +642,7 @@ body.dark-theme{
 
 }
 
-.footer__log{
+.footer__logo{
   display: inline-flex;
   align-items: center;
   column-gap: .5rem;
@@ -678,10 +682,15 @@ body.dark-theme{
 .footer__title{
   font-size: var(--h3-font-size);
   margin-bottom: 1.5rem;
+  
+}
+.footer__social a{
+  color: black;
 }
 
 .footer__links{
   row-gap: 5rem;
+  color: black;
 }
 
 .footer__link{
